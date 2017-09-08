@@ -1,0 +1,57 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{padding:0;margin:0;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%;} 
+input,textarea,select,button,option{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,button,select,textarea{outline:none;-webkit-appearance: none;border-radius:0;}
+/* global */
+body{font-size:12px; font-family:"Microsoft Yahei",Arial, Helvetica, sans-serif;color:#4D4D4D;background:#FFFFFF;}
+a{color:#2464B2;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+img{border:0;}
+em{color:#F00; font-style:normal;}
+h3{margin:0; padding:0; font-size:14px;}
+ul,li{list-style:none;margin:0; padding:0;}
+p,form,div,h2,h4{margin:0; padding:0}
+*{margin:0; padding:0;}
+b{font-weight:bold;}
+.red{color:#F00;}
+.blue{color:#00F;}
+.green{color:#008000;}
+.cl{clear:both; overflow:hidden; height:0px;}
+.cl5{clear:both; overflow:hidden; height:5px;}
+.cl8{clear:both; overflow:hidden; height:8px;}
+.cl10{clear:both; overflow:hidden; height:10px;}
+input,button,select,textarea{outline:none}
+
+.w{ width:980px; margin:0 auto;}
+
+/* home */
+#top{ height:36px; line-height:36px; background-color:#F8F8F8; color:#666666; border-bottom:1px solid #EBEBEB;}
+#top .fl{ display:inline-block; float:left; padding:0 10px;}
+
+.homelogo{   margin:10px auto 10px auto; text-align:center; overflow:hidden;}
+.homelogo h1{   overflow:hidden;}
+
+.searchbox{ height:36px; margin:10px 10px; clear:both;border:1px solid #4B8DF9;position:relative;  overflow:hidden;}
+.searchbox form{height:38px;}
+.searchbox .q{ display:block; background:#FFF; width:auto; height:38px; font-size:16px; color:#CCC; margin:0px; padding:0 0px 0 10px; border:none;  line-height:38px; border:0px; border-right:0px; width:95%; margin-right:20px;}
+.searchbox .btn{ width:55px; height:38px;line-height:38px; border:none; background-color:#4B8DF9; cursor:pointer; display:block; color:#FFF; text-align:center; font-size:16px; position:absolute; top:0px; right:0px;}
+.searchbox .btn:hover{ background-color:#639BFA;}
+
+
+.hotsearch{ clear:both; width:100%; margin:10px 10px;}
+.hotsearch h2{ color:#666; font-size:16px; line-height:30px; text-align:center;}
+
+.ranklist li{height:20px; margin:5px 5px 5px 0px; padding-bottom:5px; clear:both; overflow:hidden; border-bottom:1px solid #F3F3F3;}
+.ranklist li .num{ display:inline-block; float:left; width:16px; height:16px; margin-top:2px; background-color:#8EB9F5; line-height:16px; text-align:center; color:#FFF; font-size:12px;}
+
+.ranklist li .top1{ background-color:#F97A0B;}
+.ranklist li .top2{ background-color:#FA9A43;}
+.ranklist li .top3{ background-color:#FCB574;}
+.ranklist li a{ font-size:14px; display:inline-block; float:left; height:20px; margin-left:5px;padding:0 5px;}
+.ranklist li a:hover{ background-color:#F2F1EE; text-decoration:none; padding:0 5px;}
+.bdsug_copy{ display:none;}
+
+#footer{ line-height:30px;  border-top:1px solid #EBEBEB; color:#999999; text-align:center; clear:both;}

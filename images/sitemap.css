@@ -1,0 +1,51 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0; }
+fieldset,img{border:0;}
+em,strong,th{font-style:normal;font-weight:400;}
+ol,ul{list-style:none;}
+th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%;} 
+input,textarea,select,button,option{font-family:inherit;font-size:inherit;font-weight:inherit;}
+
+/* global */
+body{font-size:12px; font-family:"Microsoft Yahei",Arial, Helvetica, sans-serif;color:#4D4D4D;background:#FFFFFF;}
+a{color:#2464B2;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+img{border:0;}
+em{color:#F00; font-style:normal;}
+h3{margin:0; padding:0; font-size:14px;}
+ul,li{list-style:none;margin:0; padding:0;}
+p,form,div,h2,h4{margin:0; padding:0}
+*{margin:0; padding:0;}
+b{font-weight:bold;}
+.red{color:#F00;}
+.blue{color:#00F;}
+.green{color:#008000;}
+.cl{clear:both; overflow:hidden; height:0px;}
+.cl5{clear:both; overflow:hidden; height:5px;}
+.cl8{clear:both; overflow:hidden; height:8px;}
+.cl10{clear:both; overflow:hidden; height:10px;}
+input,button,select,textarea{outline:none}
+
+.w{ width:980px; margin:0 auto;}
+
+.header{ height:80px; background-color:#ECECEC; border-bottom:1px solid #D7D7D7;}
+.header h1{ height:80px; line-height:80px; font-size:30px; text-align:center;}
+.header h1 a:hover{ text-decoration:none; color:#F30;}
+
+.main{ width:960px; margin:10px auto; padding:10px; border:1px solid #F4F4F4; min-height:500px;}
+.cklist{ margin:15px 0;}
+.cklist li{ width:180px; height:30px; margin:5px; border:1px dashed #F8F8F8; text-align:center; line-height:30px; overflow:hidden; float:left;}
+.cklist li a{width:180px; height:30px; display:block; background-color:#FAFAFA;}
+.cklist li a:hover{ background-color:#FC9; text-decoration:none; color:#F30}
+
+#sopage{ text-align:center; margin:10px auto; clear:both;}
+#sopage a{ border:1px solid #E5E5E5; margin:0px 3px; text-decoration:none; font-size:14px; line-height:34px; height:34px; width:34px; text-align:center;color:#0033CC; font-weight:normal; margin-top:3px;outline:none; overflow:hidden; display:inline-block; float:left; }
+#sopage a:hover{border:1px solid #F7AF84; background-color:#FFFFFF; color:#F54A07;}
+#sopage a.this{border:1px solid #F0EFEF; background-color:#F0EFEF; color:#F19612; font-weight:bold;}
+#sopage .n{ width:52px;}
+
+#footer{ height:36px; line-height:36px;  background-color:#F5F6F5; border-top:1px solid #EBEBEB; color:#999999; text-align:center; clear:both;}
+/* By www.huoduan.com */

@@ -1,0 +1,5 @@
+rewrite ^/cache/(.*) /404.html;
+rewrite ^/data/(.*) /404.html;
+if (!-e $request_filename) {
+  rewrite ^/(.*)$ /index.php?rewrite=$1  last;
+}
